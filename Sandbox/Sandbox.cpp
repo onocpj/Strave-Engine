@@ -54,11 +54,9 @@ namespace NSandbox {
 	Strave::GameObject2D* apple;
 	Strave::GameObject2D* tree;
 	Strave::GameObject2D* fireObj;
-
+	Strave::GameObject2D*	assets[NUMBER_OF_ASSETS];
 	Strave::Player2D* player; 
 	Strave::RigidBody2D* enemy;
-
-	Strave::GameObject2D*	assets[NUMBER_OF_ASSETS];
 
 	Strave::Input* input;
 	Strave::CharacterController2D* characterController;
