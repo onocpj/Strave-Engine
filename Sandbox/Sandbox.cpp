@@ -26,18 +26,18 @@ namespace NSandbox {
 	Strave::Animation* EnemyAnimation;
 	Strave::Animation* FireAnimation;
 
-	Strave::GameObject2D*	apple;
-	Strave::GameObject2D*	tree;
-	Strave::GameObject2D*	fireObj;
+	Strave::GameObject2D* apple;
+	Strave::GameObject2D* tree;
+	Strave::GameObject2D* fireObj;
 
-	Strave::Player2D*		player; 
-	Strave::RigidBody2D*	enemy;
+	Strave::Player2D* player; 
+	Strave::RigidBody2D* enemy;
 
 	Strave::GameObject2D*	assets[NUMBER_OF_ASSETS];
 
-	Strave::Input*					input;
-	Strave::CharacterController2D*	characterController;
-	Strave::GameCamera2D*			characterCamera;
+	Strave::Input* input;
+	Strave::CharacterController2D* characterController;
+	Strave::GameCamera2D* characterCamera;
 
 	Strave::GUI::Grid* inventory;
 	Strave::GUI::Button* addItemButton;
@@ -52,7 +52,7 @@ namespace NSandbox {
 	int selectedItemIndex = -1;
 
 	enum PLAYER_ANIMATION {
-		RUN_LEFT	=	1,
+		RUN_LEFT = 1,
 		RUN_RIGHT
 	};
 
