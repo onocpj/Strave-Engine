@@ -83,12 +83,22 @@ namespace Strave
 		/// \brief Creates animation
 		///
 		/// \param texture - animation texture
-		/// \param imageCount - number of pictures animation contains
-		/// \param animationTime - animation time
+		/// \param columns - number of columns that animation contains
+		/// \param animationTime - time to loop through all columns (in seconds)
 		///
 		/// \return Pointer to created animation
 		/// 
 		static Animation* Create(const sf::Texture& texture, Uint16 columns, float animationTime);
+		///
+		/// \brief Creates animations from texture grid, that contains multiple animations for
+		/// object
+		///
+		/// \param texture - animation texture grid
+		/// \param rows - number of animations in grid (each rows represents one animation)
+		/// \param consraints - animation texture grid constraints
+		///
+		/// \return Pointer to created animation grid
+		/// 
 		static Animation* Create(const sf::Texture& texture, const Uint16 rows, const Constraints constraints[]);
 		///
 		/// \brief Starts animation
