@@ -1,5 +1,30 @@
 #include "Sandbox.h"
-#include <iostream>
+
+/*
+* When you have set up SFML lib in your project, you can insert all the files
+* contained in Strave Engine file. 
+*
+* To make entry point to engine, you have to create cpp file, that contains:
+*	#include "Sandbox.h"
+*
+*	namespace NSandbox {
+*		// Start is called upon start
+*		void Sandbox::Start(void) const {
+*			
+*		}
+*		// Update is called once per frame
+*		void Sandbox::Update(void) const {
+*
+*		}
+*		// End is called before application is closed
+*		void Sandbox::End(void) const {
+*
+*		}
+*	}
+*
+* BELOW IS AN EXAMPLE THAT CREATES SIMPLE 2D GAME FILLED WITH INTERACTIVE AND ANIMATED 
+* OBJECTS, GUI AND MORE. USING FUNCTIONALITIES OF ENGINE. 
+*/
 
 #define NUMBER_OF_ASSETS 200
 
